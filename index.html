@@ -1,72 +1,269 @@
----
-layout: page
-title: My website
-subtitle: This is where I will tell my friends way too much about me
-use-site-title: true
----
+<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Rong(Julie) Wang</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+		<script src="https://kit.fontawesome.com/cfb1eff216.js" crossorigin="anonymous"></script>
+	</head>
+	<body class="is-preload">
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#portfolio">Projects</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#work">Experience</a></li>
+					<!-- <li><a href="#contact">Contact</a></li> -->
+					<li><a href="documents/Resume_Juliewang1.pdf" target="_blank"> Resume</a></li>
+					
+					<!-- <li><a href="documents/Resume2-2.pdf" > RESUME</a></li> -->
+				</ul>
+			</nav>
 
-<div class="posts-list">
-  {% for post in paginator.posts %}
-  <article class="post-preview">
-    <a href="{{ post.url | relative_url }}">
-	  <h2 class="post-title">{{ post.title }}</h2>
+		<!-- Home -->
+			<article id="top" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image fit"><img src="images/Julie.jpg" alt="" /></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<header>
+								<h1>Hi. I'm <strong>Julie Wang</strong>.</h1>
+							</header>
+							<p>I'm a<strong> Data Scientist</strong>  with a <strong>Computer Science </strong>  degree and experience in Python, Machine Learning, Neural Networks, SQL and Statistics
+								(<a href="documents/Resume_Juliewang1.pdf" target="_blank">Resume</a>)</p>
+								<ul class="social">
+									<li><a href="https://www.linkedin.com/in/rong-julie-wang-83147a133/?locale=en_US" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/JulieWang417" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									
+									<li><a href="https://medium.com/@wangrong2885" target="_blank" class="icon brands fab fa-medium-m"><span class="label">Meidum</span></a></li>
+								</ul>
+							<!-- <a href="#portfolio" class="button large scrolly">Projects</a> -->
+						</div>
+						<div>
+							
+						</div>
+					</div>
+				</div>
+			</article>
 
-	  {% if post.subtitle %}
-	  <h3 class="post-subtitle">
-	    {{ post.subtitle }}
-	  </h3>
-	  {% endif %}
-    </a>
 
-    <p class="post-meta">
-      Posted on {{ post.date | date: site.date_format }}
-    </p>
+			<article id="skills" class="wrapper style3">
+				<!-- Technical Skills Section -->
+				<section class="main">
+					<header>
+						<div class="container">
+							<h2>Technical Skills</h2>
+						</div>
+					</header>
+					<div class="content dark style1 featured">
+						<div class="container">
+							<div class="row">
+								<div class="col-4 col-12-narrow">
+									<section>
+										<span class="feature-icon"><i class="icon2 solid fab fa-python"></i></span>
+										<header>
+											<h3>Python</h3>
+										</header>
+										
+									</section>
+								</div>
+								<div class="col-4 col-12-narrow">
+									<section>
+										<span class="feature-icon"><span class="icon solid fa-database"></span></span>
+										<header>
+											<h3>SQL</h3>
+										</header>
+										
+									</section>
+								</div>
+								
+								<div class="col-4 col-12-narrow">
+									<section>
+										<span class="feature-icon"><span class="icon solid fas fa-atom"></span></span>
+										<header>
+											<h3>Machine Learning</h3>
+										</header>
+										
+									</section>
+								</div>
+								<div class="col-4 col-12-narrow">
+									<section>
+										<span class="feature-icon"><span class="icon solid fas fa-atom"></span></span>
+										<header>
+											<h3>Neural Networks</h3>
+										</header>
+										
+									</section>
+								</div>
+								<div class="col-4 col-12-narrow">
+									<section>
+										<span class="feature-icon"><span class="icon solid far fa-chart-bar"></span></span>
+										<header>
+											<h3>Data Visualization</h3>
+										</header>
+										
+									</section>
+								</div>
+								<div class="col-4 col-12-narrow">
+									<section>
+										<span class="feature-icon"><span class="icon solid fas fa-square-root-alt"></span></span>
+										<header>
+											<h3>Statistics</h3>
+										</header>
+										
+									</section>
+								</div>
+								<!-- <div class="col-12">
+									<footer>
+										<a href="#work" class="button scrolly">Professional Experience</a>
+									</footer>
+								</div> -->
+							</div>
+						</div>
+					</div>
+				</section>
+			</article>
+			<!-- Work -->
+			<article id="work" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>Professional Experience</h2>
+						<a href="documents/Resume_JohanaLuna.pdf" target="_blank" class="button small">Resume</a>
+					</header>
+					
+					<div class="row aln-center">
+						<div class="col-11 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon featured fa fa-wifi" aria-hidden="false"></span>
+								<h3>Claro (Telecomunications)</h3>
+								<h6><i class="fas fa-calendar-alt"></i>  Nov 2014 - Jan 2016</h6>
+								<ul class="fa-ul">
+									<li class="fa-li2"><span class="fa-li"><i class="fa fa-check"></i></span>Led 4 people in charge of managing databases with more than 650 million monthly records</li>
+									<li class="fa-li2"><span class="fa-li"><i class="fa fa-check"></i></span>Reduced audit times by 47% through automating the process using ACL, Excel and other tools</li>
+								</ul>
+							</section>
+						</div>
+					</div>
+					<div class="row aln-center">
+						<div class="col-11 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon solid featured fas fa-hospital"></span>
+								<h3>Nueva EPS (Ensurance)</h3>
+								<h6><i class="fas fa-calendar-alt"></i>  Jul 2013 - Nov 2014</h6>
+								<ul class="fa-ul">
+									<li class="fa-li2"><span class="fa-li"><i class="fa fa-check"></i></span>Automated information extraction processes of ~6 Million records with sensitive information</li>
+									<li class="fa-li2"><span class="fa-li"><i class="fa fa-check"></i></span>Led the auditing of the company's systems to make sure they comply with government regulations</li>
+								</ul>
+							</section>
+						</div>
+					</div>
+					<div class="row aln-center">
+						<div class="col-11 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon featured far fa-edit"></span>
+								<h3>PWC (Auditing)</h3>
+								<h6 style="color:#33302F"><i class="fas fa-calendar-alt"></i>  Feb 2013 - Jul 2013</h6>
+								<ul class="fa-ul">
+									<li class="fa-li2"><span class="fa-li"><i class="fa fa-check"></i></span>Performed systems audits of major companies in telecommunications, oil and banking</li>
+									<li class="fa-li2"><span class="fa-li"><i class="fa fa-check"></i></span>Diagnosed information systems' key controls and checked the compliance with international standards</li>
+								</ul>
+							</section>
+						</div>
+					</div>
+					<!-- <footer>
+						<a href="#contact" class="button large scrolly">See some of my recent work</a>
+					</footer> -->
+				</div>
+			</article>
+			<!-- Languages -->
+			<article id="skills" class="wrapper style3">
+				<!-- Languages List -->
+				<section class="main">
+					<header>
+						<div class="container">
+							<h2>Languages</h2>
+						</div>
+					</header>
+					<div class="wrapper dark style1 featured">
+						<div class="container"></div>
+							<div class="row">
+								<div class="col-4 col-12-narrow">
+									<section>
+										<span><i class="icon featured fas fa-battery-full"></i></span>
+										<header>
+											<h3>Spanish</h3>
+										</header>
+									</section>
+								</div>
+								<div class="col-4 col-12-narrow">
+									<section>
+										<span><span class="icon featured fas fa-battery-full"></span></span>
+										<header>
+											<h3>English</h3>
+										</header>
+										
+									</section>
+								</div>
+								
+								<div class="col-4 col-12-narrow">
+									<section>
+										<span><span class="icon featured fab fa-battery-half"></span></span>
+										<header>
+											<h3>French</h3>
+										</header>
+									</section>
+								</div>
+								
+								
+								<div class="col-12">
+									<footer>
+										<a href="#top" class="button scrolly">Back to Home</a>
+									</footer>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</article>
+		<!-- Contact -->
+			<article id="contact" class="wrapper style4">
+				<div class="container medium">
+					<div class="row">
+						<div class="col-12">
+							<h3 style="color:rgb(58, 58, 58); text-shadow: 1px 1px #dfdfdf;">Contact Me</h3>
+							<ul class="social">
+								<li><a href="https://www.linkedin.com/in/johanaluna/?locale=en_US" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/johanaluna" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<!-- <li><a href="https://twitter.com/j0hanaluna" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
+								<li><a href="https://medium.com/@johanaluna" target="_blank" class="icon brands fab fa-medium-m"><span class="label">Meidum</span></a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- <footer>
+						<ul id="copyright">
+							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer> -->
+				</div>
+			</article>
 
-    <div class="post-entry-container">
-      {% if post.image %}
-      <div class="post-image">
-        <a href="{{ post.url | relative_url }}">
-          <img src="{{ post.image | relative_url }}">
-        </a>
-      </div>
-      {% endif %}
-      <div class="post-entry">
-        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
-        {% assign excerpt_word_count = post.excerpt | number_of_words %}
-        {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
-          <a href="{{ post.url | relative_url }}" class="post-read-more">[Read&nbsp;More]</a>
-        {% endif %}
-      </div>
-    </div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-    {% if post.tags.size > 0 %}
-    <div class="blog-tags">
-      Tags:
-      {% if site.link-tags %}
-      {% for tag in post.tags %}
-      <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
-      {% endfor %}
-      {% else %}
-        {{ post.tags | join: ", " }}
-      {% endif %}
-    </div>
-    {% endif %}
-
-   </article>
-  {% endfor %}
-</div>
-
-{% if paginator.total_pages > 1 %}
-<ul class="pager main-pager">
-  {% if paginator.previous_page %}
-  <li class="previous">
-    <a href="{{ paginator.previous_page_path | relative_url }}">&larr; Newer Posts</a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li class="next">
-    <a href="{{ paginator.next_page_path | relative_url }}">Older Posts &rarr;</a>
-  </li>
-  {% endif %}
-</ul>
-{% endif %}
+	</body>
+</html>
